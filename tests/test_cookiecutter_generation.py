@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+##-*- coding: utf-8 -*-
 
 import os
 import re
@@ -73,4 +73,4 @@ def test_disable_features(cookies, feature_context):
 
     paths = build_files_list(str(result.project))
     assert paths
-    check_paths(paths)
+    check_paths(paths) 
